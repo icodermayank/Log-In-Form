@@ -110,21 +110,21 @@ form p a {
     border: 0;
     outline: 0;
     cursor: pointer;
-    transition: background 1s;
-    /*
+    
+    
     transition: background 0.3s ease-in-out;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
     font-size: 16px;
     font-weight: 600;
-    */
+    
 }
-/*
+
 .btn-field button:hover{
     background: #5c00c0;
     transform: translateY(-5px);
-    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.603);
 }
-*/
+
 .input-group{
     height: 280px;
 }
