@@ -69,6 +69,11 @@ transform: translateX(-50%);
 
 }
 
+.input-field:hover{
+    background: #afd5f0;
+   
+}
+
 input{
     width: 100%;
     background: transparent;
@@ -91,6 +96,9 @@ form p{
 form p a {
     text-decoration: none;
     color: #3c00a0;
+}
+form p:hover{
+    font-weight: bolder;
 }
 
 
@@ -132,4 +140,36 @@ form p a {
 .btn-field button.disable{
     background: #eaeaea;
     color: #555;
+}
+
+.developer-info {
+    text-align: left;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #333;
+    position:absolute;
+    width: 100%;
+    bottom: 0;
+    transition: transform 1s;
+}
+/*
+.developer-info:hover{
+    font-weight: bolder;
+    
+}*/
+
+.developer-info:hover {
+    font-weight: bolder;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+
+.developer-info:hover:nth-of-type(2) {
+    transform: translateX(-100px);
+    transition: transform 1s;
+}
+
+.developer-info:hover:nth-of-type(3) {
+    transform: translateX(0);
+    transition: transform 1s;
 }
